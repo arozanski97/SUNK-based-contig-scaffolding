@@ -16,3 +16,10 @@ Output will be available along this path:
 ```
 {sample}/join_reads/{kmer_size}/{region}/{map}-{remap}/joining_reads.paf 
 ```
+# To Run on Eichler Lab Cluster
+```
+snakesub -j 40
+```
+
+Currently opperates using Eichler labs module system, currently updating snakemake to use conda envs for off cluster availability
+ 
