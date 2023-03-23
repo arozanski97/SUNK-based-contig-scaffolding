@@ -1,7 +1,6 @@
-hifi_assembly: /net/eichler/vol26/projects/ont_sunk_asm/nobackups/data/HG002/HG002_hifiasm_trio_combined.fa
-hifi_fofn: /net/eichler/vol28/projects/long_read_archive/nobackups/pop/HG002/raw_data/PacBio_HiFi/fofn/ccs/fastq.fofn
-ont_fofn: HG002_hap1_ONT.fofn
-hifi_fai: /net/eichler/vol26/projects/ont_sunk_asm/nobackups/data/HG002/HG002_hifiasm_trio_combined.fa.fai
+hifi_assembly: {path_to_haploid_assembly}
+hifi_fofn: {path_to_hifi_fofn}
+ont_fofn: {path_to_ont_fofn}
 kmer_size:
   - 20
 upper_lim: 1
@@ -9,6 +8,6 @@ lower_lim: 3
 length_filter_ONT: 100
 init_map: minimap2
 remap: winnowmap
-sample_name: HG002_HiFiAsm_hap1_test
+sample_name: CHM1
 contig_bed:
-  defensin_hap2: HG002_defensin.final.bed
+  defensin_hap2: CHM1_cens.bed
