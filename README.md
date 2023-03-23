@@ -12,4 +12,7 @@ You can find a version for diploid assemblies in the branch "diploid"
 
 # Output:
 PAF of ONT reads that link two Contigs that have SUNK placement support (>2 SUNK Matches between ONT read and assembly and alignment length > 50kbp)
-/net/eichler/vol26/projects/ont_sunk_asm/nobackups/pipelines/sunk_scaff/{sample}/join_reads/{kmer_size}/{region}/{map}-{remap}/joining_reads.paf 
+Output will be available along this path:
+'''
+{sample}/join_reads/{kmer_size}/{region}/{map}-{remap}/joining_reads.paf 
+'''
